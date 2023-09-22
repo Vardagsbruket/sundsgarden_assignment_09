@@ -1,0 +1,11 @@
+
+.clock {
+    animation:  symbolZoom 3s ease;
+    animation-iteration-count: 5;
+}
+
+@keyframes symbolZoom {
+    from {transform: scale(1); rotate: 0deg;}
+    to {transform: scale(1.2); rotate: 20deg;}
+}
+
